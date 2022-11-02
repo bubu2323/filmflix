@@ -1,0 +1,94 @@
+div.cards-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+div.cardfilm {
+    background-color: #333;
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 27em;
+    margin: 1em;
+    /* box-shadow: 0px 4px 15px -2px rgba(242, 237, 237, 0.75); */
+    padding: 0.4em;
+    border: none;
+    border-radius:1%;
+}
+div.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+h4.film-title {
+    margin-top: 1em;
+    opacity: 1;
+    font-size: 2.5vh;
+    font-weight: 600;
+    color: #fff;
+}
+/* select element with background image */
+
+div span.category-name {
+    font-size: 1.8vh;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    color: rgb(219, 0, 20);
+}
+div.infos {
+    width: 100%;
+    bottom: 0;
+    padding-left: 0.8em;
+    padding-bottom: 0.3em;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.rating {
+    height: 40px;
+    width: 55px;
+    position: absolute;
+    left: 22em;
+    top: -1em;
+    border-radius: 2px;
+    box-shadow: 0px 4px 27px -2px rgba(0, 0, 0, 0.75);
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
+    z-index: 10;
+    background-color: rgb(219, 0, 20);
+    color: black;
+}
+
+span.film-year {
+    font-size: 0.5em;
+    font-weight: bold;
+    color: #fff;
+}
+a.watch-streaming {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-left: -0.6em;
+}
+hr.hr-card {
+    margin: 0.2em;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0)
+    );
+}
+img.img-card {
+    width: 12em;
+    padding: 1em;
+}
+@media screen and (min-width: 600px) {
+    div.cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}

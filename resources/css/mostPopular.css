@@ -1,0 +1,21 @@
+h3.most-popular {
+    color: white;
+}
+.vueperslides__arrow {
+    color: red;
+    background-color: rgb(240, 248, 255);
+    border: 1px solid rgb(156, 156, 176);
+    border-radius: 50%;
+}
+
+div.container-pop div.vueperslide__content-wrapper {
+    background: none;
+}
+div.container-pop div.vueperslide__title {
+    font-size: 1vw;
+    bottom: 0;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    box-shadow: none;
+}
